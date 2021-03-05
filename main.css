@@ -1,6 +1,6 @@
 body {
   min-height: 100vh;
-  background: #f2f2f2;
+  background: #ffffff;
   padding: 2rem;
 }
 
@@ -64,4 +64,27 @@ p {
   background: orange;
   margin: 1rem;
   transition: width 0.25s;
+}
+
+.cat{
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  width: 300px;
+  display:none;
+}
+
+.cat.active{
+  display:flex;
+}
+
+.dogs{
+  position: absolute;
+  top: 5%;
+  right: 12%;
+  width: 2rem;
+}
+
+.dogs.active{
+  width: 30rem;
 }
