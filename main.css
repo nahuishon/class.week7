@@ -88,3 +88,14 @@ p {
 .dogs.active{
   width: 30rem;
 }
+
+.pig{
+  position: absolute;
+  top: 5%;
+  right: 12%;
+  width: 2rem;
+}
+
+.pig.active{
+  width: 30rem;
+}

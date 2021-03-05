@@ -47,6 +47,16 @@ function turnblack() {
 
 blackCircle.addEventListener("click",turnblack);
 
+//defining the variable orange squre
+let orangeBox = document.querySelector(".orange-box");
+
+function turnblack() {
+    document.body.style.background = "yellow";
+    document.body.style.color = "pink";
+}
+
+orangeBox.addEventListener("click",turnblack);
+
 
 //when user hovers on the word "corner"
 //cat image appears
@@ -82,6 +92,20 @@ increaseDogImage.addEventListener("mouseout",function(){
     dogs.classList.remove("active");
 })
  
+//pig show 
+let pig = document.querySelector(".pig");
+
+//the word halfway
+let increasePigImage = document.querySelector('.flying-pig');
+
+increasePigImage.addEventListener("mouseover",function(){
+ pig.classList.add("active");
+})
+
+increasePigImage.addEventListener("mouseout",function(){
+    pig.classList.remove("active");
+})
+
 
 
 
