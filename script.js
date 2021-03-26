@@ -75,7 +75,7 @@ hoverCorner.addEventListener("mouseout",hideCat);
 
 function hideCat() {
     flyingCat.classList.remove("active");
-});
+};
 
 //dog image
 
